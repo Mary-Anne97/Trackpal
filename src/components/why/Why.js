@@ -1,14 +1,8 @@
 import * as React from "react";
 import 'swiper/css';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Why_Mark from '../../images/mark.svg';
 import Sport from '../../images/sport.svg';
 
-// import Swiper core and required modules
-
-
-// import Swiper core and required modules
-import { A11y, Autoplay, Lazy, Navigation, Pagination, Scrollbar } from 'swiper';
 
 
 // Import Swiper styles
@@ -36,23 +30,23 @@ function Why() {
         },
     ];
 
-    const Testimonials = [
-        {
-            title: "Look no further for an app that caters to all your needs.",
-            name: 'John Doe',
-            image: 'images/testimonial-1.png'
-        },
-        {
-            title: "This app is so user-centered and beginner friendly.",
-            name: 'Jane Doe',
-            image: 'images/user 2.jpg'
-        },
-        {
-            title: "It is so helpful getting ergonomic materials",
-            name: 'John Doe',
-            image: 'images/user 3.jpg'
-        },
-    ];
+    // const Testimonials = [
+    //     {
+    //         title: "Look no further for an app that caters to all your needs.",
+    //         name: 'John Doe',
+    //         image: 'images/testimonial-1.png'
+    //     },
+    //     {
+    //         title: "This app is so user-centered and beginner friendly.",
+    //         name: 'Jane Doe',
+    //         image: 'images/user 2.jpg'
+    //     },
+    //     {
+    //         title: "It is so helpful getting ergonomic materials",
+    //         name: 'John Doe',
+    //         image: 'images/user 3.jpg'
+    //     },
+    // ];
 
     return (
         // add a class to the div to make it responsive

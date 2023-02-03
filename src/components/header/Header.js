@@ -1,6 +1,6 @@
 import * as React from "react";
 import Logo from '../../images/logo.svg';
-import { Button, Form, Modal, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Button, Form, Modal, Nav, Navbar } from "react-bootstrap";
 import './Header.css';
 
 
