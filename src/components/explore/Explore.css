@@ -1,0 +1,54 @@
+.Explore {
+    background: #FFFFFF;
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
+}
+
+.Explore-cards {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: center;
+}
+
+.ExploreCard {
+    width: 23%;
+    background: #6F2EE8;
+    box-shadow: 0 4px 4px rgba(83, 28, 185, 0.1);
+    padding: 20px 30px !important;
+    margin: 15px 1%;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ExploreCard-Button button {
+    padding: 0;
+}
+
+
+.Purse {
+    width: 34.17px;
+    height: 35.25px;
+}
+
+@media screen and (max-width: 991px) {
+    .Explore-cards {
+        flex-wrap: wrap;
+    }
+
+    .ExploreCard {
+        width: 46%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ExploreCard {
+        max-width: 350px;
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

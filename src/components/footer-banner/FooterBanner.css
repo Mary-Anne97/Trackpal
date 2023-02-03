@@ -1,0 +1,13 @@
+.Footer-Banner-Download {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Footer-Banner-Download img {
+    border-radius: 10px;
+    width: 180px;
+}

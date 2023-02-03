@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-purple{
+  background-color: rgb(111 46 232) !important;
+}
+
+.bg-purple:hover, .join-us:hover, .more-btn:hover{
+  background-color: white !important;
+  border: 1px solid rgb(111 46 232) !important;
+  color: rgb(111 46 232) !important;
+}
+
+.learn-more{
+  border: 1px solid rgb(111 46 232) !important;
+  margin-left: 10px;
+}
+
+.join-now{
+  border: 1px solid white !important;
+}
+
+.bg-red{
+  background-color: rgb(173, 20, 20) !important;
+}
+
+.bg-red:hover{
+  background-color: white !important;
+  border: 1px solid rgb(173, 20, 20) !important;
+  color: rgb(173, 20, 20) !important;
+}
+
+.more-btn{
+  text-decoration: none !important;
+}

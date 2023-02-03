@@ -1,0 +1,25 @@
+.Blog {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Blog-cards {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .Blog{
+        align-items: center;
+    }
+    
+    .Blog-cards {
+        flex-wrap: wrap;
+    }
+}

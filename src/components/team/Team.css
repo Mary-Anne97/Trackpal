@@ -1,0 +1,52 @@
+.Team {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Team-cards {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Team {
+    width: 21%;
+    margin: 10px 2%;
+}
+
+.Team-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.Team-content {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .Team-cards{
+        flex-wrap: wrap;
+    }
+    .Team{
+        width: 45%;
+        margin: 10px 2.5%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Team {
+        max-width: 350px;
+        width: 94%;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

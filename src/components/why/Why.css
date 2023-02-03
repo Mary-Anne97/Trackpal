@@ -1,0 +1,43 @@
+.Why {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.Why-Item {
+    display: flex;
+    flex-direction: row;
+    text-align: initial;
+    align-items: center;
+}
+
+
+.Testimonial-Item {
+    background: #D9D9D9;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .Why {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Why-image {
+        max-width: 500px;
+        width: 94%;
+        margin: 10px auto;
+    }
+
+    .Why-text h1 {
+        font-size: 20px;
+    }
+
+    .Why-text li div{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,30 @@
+.Generic-Card {
+    width: 30.3%;
+    margin: 10px 1.5%;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.Generic-Card-image img{
+    width: 100%;
+}
+
+
+.Generic-Card:hover {
+    background: #e9eaef;
+    cursor: pointer;
+}
+
+
+.Generic-Card-Description {
+    color: #434343;
+}
+
+@media screen and (max-width: 850px) {
+    .Generic-Card {
+        width: 94%;
+        max-width: 400px;
+        margin: 10px auto !important;
+    }
+}
